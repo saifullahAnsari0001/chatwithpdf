@@ -12,24 +12,19 @@ Python 3.8+
 
 git clone https://github.com/saifullahAnsari0001/chatwithpdf.git
 cd chatwithpdf
+
 Install Dependencies
 To install the necessary Python dependencies, run:
 
-bash
-Copy code
 pip install -r requirements.txt
 Set up Environment Variables
 Create a .env file in the root of your project directory and add your Pinecone and Cohere API keys:
 
-bash
-Copy code
 PINECONE_API_KEY=your_pinecone_api_key
 COHERE_API_KEY=your_cohere_api_key
 Usage
 To run the app, use the following command:
 
-bash
-Copy code
 streamlit run app.py
 Steps to Use:
 Upload PDF Files:
@@ -68,8 +63,6 @@ Future Enhancements
 Add support for more document types (e.g., DOCX, TXT).
 Implement more robust error handling for invalid file formats.
 Expand functionality for summarization and keyword extraction.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 Acknowledgments
 Pinecone for vector storage.
